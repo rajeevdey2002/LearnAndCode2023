@@ -2,9 +2,9 @@
 #include <iostream>
 #include <algorithm>
 
-void ArithmeticAndStringProcessor::additionOfTwoNumbers(int firstOperand, int secondOperand) 
+void ArithmeticAndStringProcessor::additionOfTwoNumbers(int firstOperand, int constantOperand) 
 {
-    int resultAfterAddition = firstOperand + secondOperand;
+    int resultAfterAddition = firstOperand + constantOperand;
     std::cout << "Result: " << resultAfterAddition << std::endl;
 }
 

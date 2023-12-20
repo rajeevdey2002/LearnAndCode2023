@@ -9,7 +9,7 @@ public:
     int firstNumber;
     double secondNumber;
     std::string lowerCaseInput;
-    void additionOfTwoNumbers(int firstOperand, int secondOperand);
+    void additionOfTwoNumbers(int firstOperand, int constantOperand);
     void convertToUppercase(std::string lowerCaseInput);
 };
 
